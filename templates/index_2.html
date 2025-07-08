@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}
+    王小明的個人履歷
+{% endblock %}
+
+{% block content %}
+<header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">王小明 (Wang, Hsiao-Ming)</h1>
+            <p class="lead mb-0">一位對技術充滿熱情、專注於打造高效能後端系統的開發者</p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">關於我 (About Me)</h2>
+                    <p class="card-text">
+                        您好，我是王小明。畢業於國立臺灣大學資訊工程學系，擁有超過三年的網站後端開發經驗。我對軟體架構設計和效能調校充滿熱情，擅長使用 Python 和 Go 語言來解決複雜的工程問題。
+                    </p>
+                    <p class="card-text">
+                        在我的職業生涯中，我參與了多個高流量的電商平台與內部管理系統的開發。我樂於學習新技術、擁抱挑戰，並享受與團隊成員一同腦力激盪、打造出卓越產品的過程。我希望能運用我的技能，為有價值的專案做出貢獻。
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">專業技能 (Skills)</h2>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><strong>後端語言:</strong> Python, Go</li>
+                                <li><strong>Web 框架:</strong> Flask, Django, Gin</li>
+                                <li><strong>資料庫:</strong> PostgreSQL, MySQL, Redis</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li><strong>開發維運:</strong> Docker, Git, CI/CD</li>
+                                <li><strong>雲端平台:</strong> AWS (EC2, S3, RDS)</li>
+                                <li><strong>前端基礎:</strong> HTML, CSS, JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-header">聯絡資訊 (Contact)</div>
+                <div class="card-body">
+                    <p><strong>Email:</strong> <a href="mailto:ming.wang@email.com">ming.wang@email.com</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hsiaomingwang" target="_blank">linkedin.com/in/hsiaomingwang</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/ming-wang" target="_blank">github.com/ming-wang</a></p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header">學歷 (Education)</div>
+                <div class="card-body">
+                    <p><strong>國立臺灣大學</strong></p>
+                    <p class="mb-0">資訊工程學系 學士</p>
+                    <small>2016 - 2020</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
