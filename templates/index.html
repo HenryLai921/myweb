@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}
+    歡迎來到我的首頁 - 你的名字
+{% endblock %}
+
+{% block content %}
+<header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">賴泉宏</h1>
+            <p class="lead mb-0">資工系大一學生</p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">關於我 (About Me)</h2>
+                    <p class="card-text">
+                        【準大一新生，興趣是玩賽車遊戲，寫程式，對各種電腦相關產品及其歷史感興趣，希望以後入職場年薪能破百】
+                    </p>
+                    <a class="btn btn-primary" href="#!">閱讀更多 →</a>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">專業技能 (Skills)</h2>
+                    <ul>
+                        <li>技能一，寫Python</li>
+                        <li>技能二，組電腦</li>
+                        <li>技能三，彈鋼琴</li>
+                        <li>技能四，組模型</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-header">聯絡資訊 (Contact)</div>
+                <div class="card-body">
+                    <p><strong>Email:</strong> 【henrylai922@gmail.com】</p>
+                    <p><strong>LinkedIn:</strong> <a href="#">【你的 LinkedIn 個人檔案連結】</a></p>
+                    <p><strong>GitHub:</strong> <a href="#">【你的 GitHub 個人檔案連結】</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
